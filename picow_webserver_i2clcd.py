@@ -9,8 +9,8 @@ from picozero import pico_temp_sensor, pico_led
 from pico_i2c_lcd import I2cLcd
 import machine
 
-ssid = 'Banana'
-password = '_m3l0c0t0n_'
+ssid = '[SSID]'
+password = '[PASSWORD]'
 
 i2c_sda = machine.Pin(26)
 i2c_scl = machine.Pin(27)
